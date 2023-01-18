@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livrare pizza</title>
+</head>
+<body>
+    <section>
+        <form action="text.php" method="post">
+            <h3>Livrare Pizza</h3>
+            <input type="text" placeholder="Numele dvs ..." name="name"> <br>
+            <input type="text" placeholder="Numarul dvs +373 ..." name="phnumb"> <br>
+            <input type="radio" name="type" value="pepperoni">
+            <label for="type">Pepperoni</label>
+            <input type="radio" name="type" value="vegetarian">
+            <label for="type">Vegetarian</label>
+            <input type="radio" name="type" value="rancho">
+            <label for="type">Rancho</label> <br>
+            <select name="sauce" id="sauce">
+                <option selected value="ss">Secret Sauce</option>
+                <option value="tomato">Tomato</option>
+                <option value="mayo">Mayonnaise</option>
+                <option value="kethcup">Ketchup</option>
+            </select> <br>
+            <input type="checkbox" name="extra1" value="echeese">
+            <label for="extra1">Extra Cheese</label>
+            <input type="checkbox" name="extra2" value="glutenfree">
+            <label for="extra2">Gluten Free Base</label> <br>
+            <textarea placeholder="Instructiuni pentru livrare ..." name="instruct" id="instruct" cols="30" rows="10">
+            </textarea> <br>
+            <input type="submit" name="submit" value="Trimite comanda">
+    </form>
+    </section>
+</body>
+</html>

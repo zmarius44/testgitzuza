@@ -1,0 +1,20 @@
+Comanda:
+Numele: Marius Zuza
+Numarul de telefon: +37378678687
+Tip: pepperoni
+Sos: mayo
+Extra 1: 
+Extra 2: glutenfree
+Instructiuni:
+            
+
+Comanda:
+Numele: Marius Zuza
+Numarul de telefon: +37378678687
+Tip: rancho
+Sos: kethcup
+Extra 1: echeese
+Extra 2: glutenfree
+Instructiuni:
+            
+
